@@ -1,0 +1,59 @@
+.container_03{
+    border: 4px solid rgb(150, 151, 150);
+    
+}
+
+.header{
+    
+    background-color: rgb(13, 6, 107);
+    text-align: center;
+    color: white ;
+    padding: 5px;
+    
+}
+
+.header h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.header p{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.menu{
+    overflow: hidden;
+    background-color: rgb(56, 95, 202);
+
+}
+
+.menu_item{
+    
+}
+.item{
+    
+    float: left;
+    text-align: center;
+    width:19.8%;
+    border-right: 1px solid white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.box5{
+    padding: 15px;
+    /* float: left; */
+}
+
+.box5 h3{
+    color: rgb(53, 53, 131);
+    
+}
+
+.Qmenu{
+    background-color: aqua;
+    float: right;
+}
