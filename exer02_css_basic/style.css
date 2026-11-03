@@ -1,0 +1,21 @@
+ /* <style>
+        input:disabled{
+            background-color: lightgray;
+            color:gray;
+        }
+
+        input:checked{
+            accent-color: red;
+        }
+
+        input:focus{
+            background-color: lightgreen;
+        }
+        
+        input:enabled{
+            border: 2px solid blue;
+        }
+
+    </style> */
+
+    
