@@ -9,13 +9,57 @@
 
 </head>
 <body>
-    <h1> Process - 1</h1>
-    <h2> Process - 2</h2>
-     <script>
-        document.querySelector('h1').style.backgroundColor = 'red';
-        document.querySelector('h2').style.color = 'red';
+    <!-- <h1> Process - 1</h1>
+    <h2> Process - 2</h2> -->
 
+    <!-- <h2>JavaScript 클릭 이벤트</h2>
+
+    <p id="message">버튼을 클릭해보세요.</p>
+
+    <button id="btn">클릭하기</button> -->
+    <div id="box" style="width:300px; height:150px;
+        background-color: lightgray; text-align:center;">
+        마우스를 올려보세요!
+    </div>
+
+     <script>
+        // document.querySelector('h1').style.backgroundColor = 'red';
+        // document.querySelector('h2').style.color = 'red';
+        
+        // window.onload = function (){
+        //     let button = document.getElementById('button');
+        //     button.onclick = function(){
+        //         alert('click');
+        //     }
+            
+        // let btn = document.querySelector("#btn");
+        // let message = document.querySelector("#message");
+
+        // btn.addEventListener("click", function() {
+        //     message.textContent = "버튼이 클릭되었습니다!";
+        //     message.style.color = "blue";
+        //     document.body.style.backgroundColor = "lightyellow";
+        // });
+            
+        let box = document.querySelector("#box");
+
+        box.addEventListener("mouseover", function() {
+            box.style.backgroundColor = "skyblue";
+            box.textContent = "마우스가 올라왔습니다!";
+        });
+
+        box.addEventListener("mouseout", function() {
+            box.style.backgroundColor = "lightgray";
+            box.textContent = "마우스를 올려보세요!";
+        });
+        
         
     </script>
+
+    <!-- <button id="button">버튼</button>; -->
+
+
+    
+
 </body>
 </html>
